@@ -18,6 +18,7 @@ You can find an example python script along with the asset.
 - currently all attributes are passed (before) and updated (after) by defualt
 - currently there is no access to intrinsic attributes
 - currently list attributes are not supported
+- currently erors of the subprocess are lost
 
 ## Upcoming Features
 
@@ -30,3 +31,4 @@ You can find an example python script along with the asset.
 - Ability to create new attributes
 - Ability to create and delete points
 - Ability to create and delete primitives
+- Catching the errors of the subprocess
