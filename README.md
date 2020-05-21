@@ -1,7 +1,3 @@
-# GSS-Lab
-
-This project is part of the stup fot Generative Sciences & Systems Lab Setup. It is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nouria](https://github.com/Pirouz-Nourian) at GSS-Lab, Department of Architectural Engineering and Technology, at TU Delft.
-
 # Houdini Call Python Asset
 
 This houdini asset allows the user to choose a python file and choose a specfic python environment and run the python script with the selected environment. This allows for separation of environments through a workflow and also solves the problem of importing libraries in houdini completely. This asset is compatible with conda environments as well.
@@ -33,3 +29,9 @@ You can find an example python script along with the asset.
 - Ability to create and delete points
 - Ability to create and delete primitives
 - Catching the errors of the subprocess
+
+---
+
+# GSS-Lab
+
+This project is part of the stup fot Generative Sciences & Systems Lab Setup. It is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nouria](https://github.com/Pirouz-Nourian) at GSS-Lab, Department of Architectural Engineering and Technology, at TU Delft.
