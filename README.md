@@ -10,10 +10,14 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 
 You can find an example python script along with the asset.
 
+## Guideline
+
+- attribute names should not include the charachter "\."
+
 ## Known Issues
 
 - currently you need to have at least one attribute on prim and detail level for the node to work
-- attribute names should not include the charachter "\_"
+
 - currently all attributes are passed (before) and updated (after) by defualt
 - currently there is no access to intrinsic attributes
 - currently list attributes are not supported
