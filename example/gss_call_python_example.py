@@ -30,7 +30,7 @@ if __name__ == '__main__':
     points, vertices, prims, detail = main(points, vertices, prims, detail)
 
     # write to db
-    points.to_sql(name="POINTS_NEW", con=conn)
-    vertices.to_sql(name="VERTICES_NEW", con=conn)
-    prims.to_sql(name="PRIMITIVES_NEW", con=conn)
-    detail.to_sql(name="DETAIL_NEW", con=conn)
+    points.to_sql(name="POINTS_NEW", con=conn, index=False)
+    vertices.to_sql(name="VERTICES_NEW", con=conn, index=False)
+    prims.to_sql(name="PRIMITIVES_NEW", con=conn, index=False)
+    detail.to_sql(name="DETAIL_NEW", con=conn, index=False)

@@ -17,7 +17,6 @@ You can find an example python script along with the asset.
 ## Known Issues
 
 - currently you need to have at least one attribute on prim and detail level for the node to work
-
 - currently all attributes are passed (before) and updated (after) by defualt
 - currently there is no access to intrinsic attributes
 - currently list attributes are not supported
