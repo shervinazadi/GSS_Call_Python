@@ -1,11 +1,13 @@
 import sys
 import pandas as pd
 import sqlite3 as sq
+import numpy as np
 
 
 def main(points, vertices, prims, detail):
 
     points['P.Y'] += 1
+    # points['flipped'] = np.flip(np.arange(len(points.index)))
 
     return (points, vertices, prims, detail)
 
