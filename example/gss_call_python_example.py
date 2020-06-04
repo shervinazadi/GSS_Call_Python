@@ -19,6 +19,9 @@ def main(points, vertices, prims, detail):
              'P.Y': 0.0,
              'P.Z': 0.0}, ignore_index=True)
 
+    # add atribute
+    points['TestAttrib'] = 'abc'
+
     return (points, vertices, prims, detail)
 
 
