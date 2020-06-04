@@ -9,8 +9,15 @@ def main(points, vertices, prims, detail):
     # move points in Y direction
     points['P.Y'] += 1
 
-    # drop point number 28
+    # delete point number 28
     points.drop([28], inplace=True)
+
+    # add five new points
+    for i in range(20):
+        points = points.append(
+            {'P.X': 0.2 * i,
+             'P.Y': 0.0,
+             'P.Z': 0.0}, ignore_index=True)
 
     return (points, vertices, prims, detail)
 
