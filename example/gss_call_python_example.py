@@ -6,8 +6,11 @@ import numpy as np
 
 def main(points, vertices, prims, detail):
 
+    # move points in Y direction
     points['P.Y'] += 1
-    # points['flipped'] = np.flip(np.arange(len(points.index)))
+
+    # drop point number 28
+    points.drop([28], inplace=True)
 
     return (points, vertices, prims, detail)
 
