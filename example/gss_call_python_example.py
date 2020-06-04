@@ -6,6 +6,10 @@ import numpy as np
 
 def main(points, vertices, prims, detail):
 
+    #############################
+    # Point Manipulation
+    #############################
+
     # move points in Y direction
     points['P.Y'] += 1
 
@@ -22,8 +26,26 @@ def main(points, vertices, prims, detail):
     # add point atribute
     points['TestAttrib'] = 'abc'
 
+    #############################
+    # Vertex Manipulation
+    #############################
+
     # add vertex atribute
     vertices['NV'] = 'testing...'
+
+    #############################
+    # Primitive Manipulation
+    #############################
+
+    # add prim attribute
+    prims['foo'] = 'myprim'
+
+    # delete prim number 28
+    prims.drop([28], inplace=True)
+
+    #############################
+    # Detail Manipulation
+    #############################
 
     return (points, vertices, prims, detail)
 
