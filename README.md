@@ -23,7 +23,6 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - Support of list attributes
 - Support of intrinsic attributes
 - Support of writing python code inside houdini interface
-- Saving the databse file in the temp folder instead of the working directory
 - Ability to create new attributes within the subprocess
 - Ability to create and delete points within the subprocess
 - Ability to create and delete primitives within the subprocess
