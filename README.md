@@ -11,9 +11,15 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - The input data is saved to tables named `"POINTS", "VERTICES", "PRIMITIVE", "DETAIL"`.
 - the output data needs to be saved to tables named `"POINTS_NEW", "VERTICES_NEW", "PRIMITIVE_NEW", "DETAIL_NEW"`.
 - You can find an example python script along with the asset.
+
+## Features
+
+- Run python code in any environment in connection to houdini geometry database
+- selectively pass the attributes for efficiency
 - create new attributes within the subprocess
 - create and delete points within the subprocess
 - initiate and delete primitives within the subprocess
+- output the database for trouble shooting purposes
 
 ## Known Issues
 
