@@ -47,6 +47,9 @@ def main(points, vertices, prims, detail):
     # Detail Manipulation
     #############################
 
+    # add prim attribute
+    detail['detailinfo'] = 'info'
+
     return (points, vertices, prims, detail)
 
 
