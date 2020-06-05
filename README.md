@@ -9,8 +9,8 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - attribute names should not include the charachter "\."
 - You can select the attributes that you want to pass to database through the houdini interface. If you leave the selection field empty it will pass all the attributes by defualt. Passing all the attributes adds extra overhead.
 - The input data is saved to tables named `"POINTS", "VERTICES", "PRIMITIVE", "DETAIL"`.
-- the output data needs to be saved to tables named `"POINTS_NEW", "VERTICES_NEW", "PRIMITIVE_NEW", "DETAIL_NEW"`.
-- You can find an example python script along with the asset.
+- the output data needs to be saved to tables named `"POINTS_NEW", "VERTICES_NEW", "PRIMITIVE_NEW", "DETAIL_NEW"`
+- You can find an example python script along with the asset. In the example file I am using `pandas` to load the data from database and dump the data into it afterwards. You can use your own library of choice.
 
 ## Features
 
@@ -40,4 +40,4 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 
 # GSS-Lab
 
-This project is part of the stup fot Generative Sciences & Systems Lab Setup. It is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nouria](https://github.com/Pirouz-Nourian) at GSS-Lab, Department of Architectural Engineering and Technology, at TU Delft.
+This project is part of the stup fot Generative Sciences & Systems Lab Setup. It is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nourian](https://github.com/Pirouz-Nourian) at GSS-Lab, Department of Architectural Engineering and Technology, at TU Delft.
