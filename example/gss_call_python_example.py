@@ -1,7 +1,6 @@
 import sys
 import pandas as pd
 import sqlite3 as sq
-import numpy as np
 
 
 def main(points, vertices, prims, detail):
@@ -17,28 +16,28 @@ def main(points, vertices, prims, detail):
     points.drop([28], inplace=True)
 
     # add five new points
-    for i in range(20):
+    for i in range(5):
         points = points.append(
             {'P.X': 0.2 * i,
              'P.Y': 0.0,
              'P.Z': 0.0}, ignore_index=True)
 
     # add point atribute
-    points['TestAttrib'] = 'abc'
+    points['TestPointAttrib'] = 'abc'
 
     #############################
     # Vertex Manipulation
     #############################
 
     # add vertex atribute
-    vertices['NV'] = 'testing...'
+    vertices['TestVertexAttrib'] = 'testing...done'
 
     #############################
     # Primitive Manipulation
     #############################
 
     # add prim attribute
-    prims['foo'] = 'myprim'
+    prims['TestrimitivePAttrib'] = 'myprim'
 
     # delete prim number 28
     prims.drop([28], inplace=True)
@@ -48,7 +47,7 @@ def main(points, vertices, prims, detail):
     #############################
 
     # add prim attribute
-    detail['detailinfo'] = 'info'
+    detail['TestDetailAttrib'] = 'info'
 
     return (points, vertices, prims, detail)
 

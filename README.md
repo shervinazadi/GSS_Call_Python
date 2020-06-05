@@ -24,7 +24,6 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 
 ## Known Issues
 
-- currently there is no access to intrinsic attributes
 - currently list attributes are not supported
 - currently errors of the subprocess are not caught
 - vertices can not be created or added to primitives
@@ -32,9 +31,9 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 ## Upcoming Features
 
 - Support of list attributes
-- Support of intrinsic attributes
-- Suppot of adding vertex to primitives within the subpocess
+- Suppot of adding and removing vertices to and from primitives within the subpocess
 - Catching the errors of the subprocess
+- py file watcher
 
 ---
 
