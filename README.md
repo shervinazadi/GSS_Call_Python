@@ -20,6 +20,7 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - create and delete points within the subprocess
 - initiate and delete primitives within the subprocess
 - output the database for trouble shooting purposes
+- Support of writing python code inside houdini interface
 
 ## Known Issues
 
@@ -33,7 +34,6 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - Support of list attributes
 - Support of intrinsic attributes
 - Suppot of adding vertex to primitives within the subpocess
-- Support of writing python code inside houdini interface
 - Catching the errors of the subprocess
 
 ---
