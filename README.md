@@ -11,21 +11,23 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 - The input data is saved to tables named `"POINTS", "VERTICES", "PRIMITIVE", "DETAIL"`.
 - the output data needs to be saved to tables named `"POINTS_NEW", "VERTICES_NEW", "PRIMITIVE_NEW", "DETAIL_NEW"`.
 - You can find an example python script along with the asset.
+- create new attributes within the subprocess
+- create and delete points within the subprocess
+- initiate and delete primitives within the subprocess
 
 ## Known Issues
 
 - currently there is no access to intrinsic attributes
 - currently list attributes are not supported
-- currently erors of the subprocess are not caught
+- currently errors of the subprocess are not caught
+- vertices can not be created or added to primitives
 
 ## Upcoming Features
 
 - Support of list attributes
 - Support of intrinsic attributes
+- Suppot of adding vertex to primitives within the subpocess
 - Support of writing python code inside houdini interface
-- Ability to create new attributes within the subprocess
-- Ability to create and delete points within the subprocess
-- Ability to create and delete primitives within the subprocess
 - Catching the errors of the subprocess
 
 ---
