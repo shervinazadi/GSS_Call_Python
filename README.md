@@ -16,12 +16,12 @@ This module uses the `sqlite3` standard library to replicate the houdini's geo d
 ## Features
 
 - Run python code in any environment in connection to houdini geometry database
-- selectively pass the attributes for efficiency
 - create new attributes within the subprocess
 - create and delete points within the subprocess
 - initiate and delete primitives within the subprocess
 - output the database for trouble shooting purposes
 - Support of writing python code inside houdini interface
+- selectively pass the attributes for efficiency
 
 ## Known Issues
 
